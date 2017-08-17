@@ -14,4 +14,8 @@
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
+
+  <ion-item>
+    <ion-textarea style="height:200px;"  [mention]="items" [mentionConfig]="{triggerChar:'@',maxItems:10,labelKey:'name',valueKey:'value'}" name="text" type="text" placeholder="What would you like to share?"></ion-textarea>
+  </ion-item>
 </ion-content>
